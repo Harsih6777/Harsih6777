@@ -1,36 +1,21 @@
- class Main{
+public class Main{
+
+public static void main (String[] args){
+
+double myDouble = 3.4;
+
+float myFloat = 3.4F;
+
+double myDoubleScientific = 3.425e2;
+
+System.out.println(myDouble);
 
 
-public static void main(String[] args){
+System.out.println(myFloat);
 
 
-boolean flag = true;
 
-System.out.println(flag);
+System.out.println(myDoubleScientific);
 
-
-byte range;
-
- range =123;
-
-System.out.println(range);
-
-
-short temperature;
-
-temperature=-200;
-
-System.out.println(temperature);
-
-
-int range1 = -4250000;
-System.out.println(range1);
-
-char letter ='\u0051';
-System.out.println(letter);
-
-
- long range2 = -6777L;
-System.out.println(range2);
 }
 }
