@@ -1,21 +1,18 @@
-public class Main{
+class Main{
 
 public static void main (String[] args){
 
-double myDouble = 3.4;
+String band = "Beatles";
 
-float myFloat = 3.4F;
+if(band =="Beatles"){
 
-double myDoubleScientific = 3.425e2;
-
-System.out.println(myDouble);
+System.out.print("Hey");
 
 
-System.out.println(myFloat);
+System.out.print("jude!");
 
-
-
-System.out.println(myDoubleScientific);
 
 }
 }
+}
+
